@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: auto;
+    font-family: museo-sans, Montserrat ;
+    font-size: 14px;
+}
+.Parte1{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.Parte2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.derecha{
+    display: flex;
+    justify-content:left;
+    gap: 12px;
+    justify-items: center;
+    align-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.izquierda{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+app-container{
+    display: flex;
+    flex-direction: row;
+}

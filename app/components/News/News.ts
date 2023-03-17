@@ -1,21 +1,18 @@
-export enum Attribute2{
+export enum Attribute3{
     "date" = "date",
-    "tittle" = "tittle",
-    "description"= "description",
+    "tittle"= "tittle",
     "image"= "image"
 }
 
-class MyNovedades extends HTMLElement{
-    date?: string
+class MyNews extends HTMLElement{
+    date? :string
     tittle?: string
-    description?: string
     image?: string
 
     static get observedAttributes(){
-        const attrs : Record<Attribute2,null> ={
+        const attrs : Record<Attribute3,null> ={
             date : null,
             tittle : null,
-            description : null,
             image :null
         }
         return Object.keys(attrs)
@@ -26,7 +23,7 @@ class MyNovedades extends HTMLElement{
         this.attachShadow({mode: 'open'})
     }
 
-    attributeChangedCallback(propName: Attribute2,oldValue: undefined,newValue: string){
+    attributeChangedCallback(propName: Attribute3,oldValue: undefined,newValue: string){
         switch(propName){
          default:
          this[propName] = newValue;
@@ -48,7 +45,6 @@ class MyNovedades extends HTMLElement{
             <img src="${this.image}" alt="holu">
             <p>${this.date}</p>
             <h5>${this.tittle}</h5>
-            <p>${this.description}</p>
             <h6>Read more</h6>
             </section>
             `
@@ -56,5 +52,5 @@ class MyNovedades extends HTMLElement{
     }
 }
 
-customElements.define("my-novedades", MyNovedades)
-export default MyNovedades;
+customElements.define("my-news", MyNews)
+export default MyNews;

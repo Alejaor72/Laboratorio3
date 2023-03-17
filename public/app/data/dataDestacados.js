@@ -1,12 +1,7 @@
-interface DataShape {
-    description: string;
-    image: string;
-}
-
-const dataDestacados: DataShape[] = [
+const dataDestacados = [
     {
-       description: "Version de prueba disponible",
-       image: "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000061846/8da5777ee365570d567256f580042d2875722e7c3340dd30a40ee97c7ed5c220"
+        description: "Version de prueba disponible",
+        image: "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000061846/8da5777ee365570d567256f580042d2875722e7c3340dd30a40ee97c7ed5c220"
     },
     {
         description: "Ya disponible",
@@ -23,11 +18,10 @@ const dataDestacados: DataShape[] = [
     {
         description: "Ya disponible",
         image: "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70070000014505/806672da8ad9d463d1f9b5bb1b6ac4afb04cdf2e0b60c46902fbde4afb565839"
-     },
-     {
+    },
+    {
         description: "Ya disponible",
         image: "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000063709/32b85837beea0eee31220a59e247219662de4011f7a8c18fce61cf99a4933eb7"
-     }
+    }
 ];
-
 export default dataDestacados;
