@@ -8,8 +8,8 @@ const dataDestacados = [
         image: "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000058797/c8930e0faaac78344d74f90ece59264199d6cf98cf4436eb7b089e46d9ac3ccf"
     },
     {
-        description: "Ola 4 ya disponible",
-        image: "https://mariokart8.nintendo.com/assets/img/booster/header/img-booster-header-dkstp.jpg"
+        description: "Splatoon 3 Splatfest—Learn more",
+        image: "https://images.ctfassets.net/xuwlxvgj0hyl/4DRUUXkSWkVWKqSPxcXuqy/ef96d36cd5fc2b44c5b8361326aa66e3/Splatoon3_Splatfest_Apr2023_EN.jpg"
     },
     {
         description: "Reservalo ya",

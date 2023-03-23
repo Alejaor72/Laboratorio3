@@ -34,12 +34,15 @@ class MyTienda extends HTMLElement {
     render() {
         if (this.shadowRoot) {
             this.shadowRoot.innerHTML = `
-            <link rel="stylesheet" href="./app/components/Destacados/Destacados.css">
-            <section>
+            <link rel="stylesheet" href="./app/components/Tienda/Tienda.css">
+            <section id="store">
             <h3>${this.tittle}</h3>
-            <img src="${this.image}" alt="holu">
+            <img src="${this.image}" alt="holu" width="80%">
+            <div id="infostore">
             <h4>${this.description}</h4>
             <button>${this.buttontext}</button>
+            </div>
+            <hr>
             </section>
             `;
         }

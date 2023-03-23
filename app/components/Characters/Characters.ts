@@ -39,7 +39,7 @@ class MyCharacters extends HTMLElement{
         if (this.shadowRoot){
             this.shadowRoot.innerHTML = `
             <link rel="stylesheet" href="./app/components/Characters/Characters.css">
-            <div class="characters">
+            <div id="characters">
             <img src="${this.image}" alt="holu">
             <h5>${this.name}</h5>
             </div>

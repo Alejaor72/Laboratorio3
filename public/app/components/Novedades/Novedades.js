@@ -34,13 +34,13 @@ class MyNovedades extends HTMLElement {
     render() {
         if (this.shadowRoot) {
             this.shadowRoot.innerHTML = `
-            <link rel="stylesheet" href="./app/components/Destacados/Destacados.css">
-            <section>
-            <img src="${this.image}" alt="holu">
-            <p>${this.date}</p>
-            <h5>${this.tittle}</h5>
-            <p>${this.description}</p>
-            <h6>Read more</h6>
+            <link rel="stylesheet" href="./app/components/Novedades/Novedades.css">
+            <section id="news1">
+             <img src="${this.image}" alt="holu">
+              <p>${this.date}</p>
+              <h5>${this.tittle}</h5>
+             <p>${this.description}</p>
+             <a>Read More</a>
             </section>
             `;
         }

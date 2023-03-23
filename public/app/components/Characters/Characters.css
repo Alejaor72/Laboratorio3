@@ -1,18 +1,12 @@
-div img{
-    width: 80px;
-}
-div h5{
-    font-family: museo-sans, Montserrat ;
-    font-size: 10%;
-}
-*{
+#characters{
     display: flex;
-    justify-content: center;
-    width: 300px;
-}
-.characters{
-    display: flex;
-    justify-content:space-between;
     flex-direction: column;
-    
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 20px;
+    font-family: museo-sans, Montserrat ;
+}
+#characters h3{
+    text-align: left;
+    margin-left: 120px;
 }

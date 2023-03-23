@@ -31,9 +31,10 @@ class MyDestacados extends HTMLElement {
         if (this.shadowRoot) {
             this.shadowRoot.innerHTML = `
             <link rel="stylesheet" href="./app/components/Destacados/Destacados.css">
-            <section>
+            <section id="featured">
             <img src="${this.image}" alt="holu">
-            <h1>${this.description}</h1>
+            <h5>${this.description}</h5>
+            <p>Nintendo Switch</p>
             </section>
             `;
         }

@@ -10,35 +10,242 @@ header{
     flex-direction: column;
     width: auto;
     font-family: museo-sans, Montserrat ;
+    color: #464646;
     font-size: 14px;
+    position: fixed;
 }
 .Parte1{
     display: flex;
-    background-color: aqua;
     justify-content: space-between;
     flex-direction: row;
 }
 .Parte2{
     display: flex;
-    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
+    height: 30px;
+}
+.todos{
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 .derecha{
     display: flex;
     justify-content:left;
-    gap: 12px;
+    gap: 14px;
     justify-items: center;
     align-content: space-around;
     align-items: center;
     flex-direction: row;
 }
+.derecha p{
+    font-size: 12px;
+    color: #606060;
+}
 .izquierda{
     display: flex;
+    width: 550px;
+    margin-right: 20px;
     justify-content: space-between;
+    justify-items: center;
+    align-items: center;
     flex-direction: row;
 }
-
+.banner{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-family: museo-sans, Montserrat ;
+    color: #464646;
+}
+.info div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.info button{
+    margin-left: 10px;
+    font-family: museo-sans, Montserrat ;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5%;
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.info p{
+    font-size: 10px;
+}
 app-container{
     display: flex;
     flex-direction: row;
+    margin-top: 30px;
+}
+.featured{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 45px;
+    font-family: museo-sans, Montserrat ;
+    color: #464646;
+}
+.featured1 h3{
+    text-align: left;
+    margin-left: 120px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.infofeatured{
+    text-align: left;
+    margin-left: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 24px;
+    gap: 26px;
+}
+.infofeatured button{
+    font-family: museo-sans, Montserrat ;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 8%;
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.featuredcomponent{
+  display: flex;
+  margin: 0%;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  width: 965px;
+  margin-left: 120px;
+  overflow-x: scroll;
+  margin-bottom: 60px;
+}
+.Gamingsystems{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+.news1component{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  margin-top: 45px;
+  font-family: museo-sans, Montserrat ;
+  color: #464646;
+  height: 500px;
+  gap: 20px;
+}
+.news1component h2{
+    display: flex;
+    text-align: left;
+}
+app-container3{
+    display: flex;
+    flex-direction: row;
+}
+app-container4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.news2component{
+    display: flex;
+    margin: 0%;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    width: 965px;
+    margin-left: 120px;
+    margin-bottom: 60px;
+    flex-direction: row;
+}
+app-container7{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.charactercomponent{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+.charactercomponent h3{
+    display: flex;
+    justify-content: left;
+    justify-items: left;
+    text-align: left;
+    margin-left: 120px;
+    font-size: 22px;
+    margin-bottom: 20px;
+  font-family: museo-sans, Montserrat ;
+  color: #464646;
+}
+.sellerscomponent{
+        display: flex;
+        flex-direction: row;
+        margin-left: 15%;
+        margin-right: 15%;
+        justify-content: center;
+        overflow-x: scroll;
+        margin-bottom: 20px;
+        height: fit-content;
+}
+app-container6{
+    display: flex;
+    flex-direction: row;
+}
+.newrelasescomponent{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+    overflow-x: scroll;
+    margin-bottom: 20px;
+}
+app-container2{
+    display: flex;
+    flex-direction: row;
+}
+.title{
+   font-family: museo-sans, Montserrat ;
+  color: #2c2c2c;
+  margin-left: 15%;
+  margin-bottom: 20px;
 }

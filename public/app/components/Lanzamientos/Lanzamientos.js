@@ -39,17 +39,13 @@ class MyLanzamientos extends HTMLElement {
         if (this.shadowRoot) {
             this.shadowRoot.innerHTML = `
             <link rel="stylesheet" href="./app/components/Lanzamientos/Lanzamientos.css">
-            <div>
+            <section id="releases">
              <img src="${this.image}" alt="holu">
-             <h1>${this.tittle}</h1>
+             <h6>${this.tittle}</h6>
              <p>${this.date}</p>
              <p>${this.description}</p>
              <p>${this.price}</p>
-             <div>
-                <p>Nintendo Switch</p>
-                <img src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png" alt="love">
-             </div>
-            </div>
+            </section>
             `;
         }
     }

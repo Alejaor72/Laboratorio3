@@ -32,8 +32,8 @@ class MyNews extends HTMLElement {
     render() {
         if (this.shadowRoot) {
             this.shadowRoot.innerHTML = `
-            <link rel="stylesheet" href="./app/components/Destacados/Destacados.css">
-            <section>
+            <link rel="stylesheet" href="./app/components/News/News.css">
+            <section id="news2">
             <img src="${this.image}" alt="holu">
             <p>${this.date}</p>
             <h5>${this.tittle}</h5>

@@ -94,7 +94,7 @@ class AppContainer3 extends HTMLElement{
        this.attachShadow({mode: 'open'})
 
        dataNovedades.forEach((user)=>{
-           const profileCard=this.ownerDocument.createElement('my-lanzamientos') as MyNovedades
+           const profileCard=this.ownerDocument.createElement('my-novedades') as MyNovedades
            profileCard.setAttribute(Attribute2.image,user.image)
            profileCard.setAttribute(Attribute2.date,user.date)
            profileCard.setAttribute(Attribute2.tittle,user.title)

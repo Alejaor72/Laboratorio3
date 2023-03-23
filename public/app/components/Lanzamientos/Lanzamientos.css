@@ -1,0 +1,9 @@
+#releases{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 20px;
+    font-family: museo-sans, Montserrat ;
+}
